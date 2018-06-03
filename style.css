@@ -1,0 +1,36 @@
+.btn-default , 
+.btn-default:focus {
+    background: #e74c3c;
+    color: #ecf0f1;
+    font-weight: bold;
+    width: 80%;
+}
+
+.btn-default:hover,
+.btn-default:active {
+    background: #34495e;
+    color: #f1c40f;
+    
+    
+}
+
+#text-center {
+    min-height: 180px;
+}
+
+body {
+    background: url("http://i.imgur.com/B4GVydt.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+#container {
+    background: rgba(50, 50, 50, 0.6);
+    color: white;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 16px;
+}
