@@ -34,3 +34,22 @@ body {
     margin: 30px auto;
     padding: 16px;
 }
+#buttons {
+    font-size: 20px;
+}
+
+#buttons > a {
+    display: block;
+    background: teal;
+    width: 60px;
+    height: 40px;
+    margin: 5px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#buttons > a:hover {
+    background: white;
+    color: aqua;
+    
+}
